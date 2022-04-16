@@ -63,7 +63,8 @@ function create() {
 
     makeBird(this.physics, this.anims);
 
-    this.physics.add.collider(bird, pipes, birdHit, null, game);
+    this.physics.add.collider(bird, pipes, birdHit, null, this);
+    //this.physics.add.overlap(bird, pipes, birdHit, null, this);
 
     spacebarKey =  this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
     //this.input.keyboard.on('keydown-SPACE', birdFlap);
@@ -109,6 +110,7 @@ function update() {
 
         // moving pipes RTL
         allPipes[i].x -= gameSpeed;
+        allPipes[i].refreshBody();
 
         if(i === allPipes.length - 1 && allPipes[i].x < GAME_WIDTH - PIPE_GAP_STEP)
             addPipes();
@@ -139,5 +141,5 @@ const PIPE_CONFIG = [
 
 function addPipes() {
 
-    pipes.create(GAME_WIDTH + PIPE_WIDTH / 2, 0, 'image_pipe').refreshBody();
+    pipes.create(GAME_WIDTH + PIPE_WIDTH / 2, 0, 'image_pipe');
 }

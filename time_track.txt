@@ -3,7 +3,7 @@
 3.0h bird movement and controller
 	creating pipes and moving them
 	making git
-
+1.0h fixing bug with no collisions
 
 
 
