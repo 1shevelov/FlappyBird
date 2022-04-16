@@ -1,0 +1,15 @@
+0.5h Phaser setup and test, VSCode update
+0.5h looking for assets, creating pipe image
+3.0h bird movement and controller
+	creating pipes and moving them
+	making git
+
+
+
+
+PLAN:
+
+bird: sprite animations and physics
+moving world, background and pipes
+collision, counter
+restart, statistics

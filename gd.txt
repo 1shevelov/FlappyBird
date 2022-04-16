@@ -1,0 +1,15 @@
+MVP
+
+1) The bird starts moving on page load. It constantly moves from left to right while gradually losing heigth.
+Unmoving obstacles in the form of vertical columns from up, down or both appear and move/stay with
+the world. If the bird touches ceil, floor or columns the game is restarted.
+The player should avoid the obstacles using the only control he has - Space button. Pressing Space gives
+the bird a surge up.
+
+2) A counter shows the number of seconds since the start of the game.
+
+3) Starting screen with the best and the last result and a button Start should appear after page load
+or game finish.
+
+4) Fine tune the space up force to achieve desirable level of difficulty. The bird should be easy
+to control but the obstacles are hard to avoid. 

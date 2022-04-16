@@ -1,0 +1,14 @@
+{
+  "name": "shevelev_flappybird",
+  "version": "1.0.0",
+  "description": "DoubleCoconut test assignment",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Shevelev",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
