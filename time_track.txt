@@ -4,6 +4,8 @@
 	creating pipes and moving them
 	making git
 1.0h fixing bug with no collisions
+3.0h game states, death and restart
+1.0h counter
 
 
 
