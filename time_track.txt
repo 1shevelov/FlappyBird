@@ -6,6 +6,7 @@
 1.0h fixing bug with no collisions
 3.0h game states, death and restart
 1.0h counter
+3.0h pipes from both sides, level difficulty management (hole size and speed up)
 
 
 
